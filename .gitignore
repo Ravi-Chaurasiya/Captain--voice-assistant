@@ -1,1 +1,7 @@
 contacts.csv
+coockies.json
+captain.db
+envcaptain/
+_pycache_/
+engine/auth/samples/
+engine/auth/trainer/
