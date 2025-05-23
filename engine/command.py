@@ -58,7 +58,7 @@ def allCommands(message=1):
             from engine.features import PlayYoutube
             PlayYoutube(query)
         
-        elif "send message" in query or "phone call" in query or "video call" in query:
+        elif "send message" in query or "phone call" in query or "video call" in query or "send sms" in query:
             from engine.features import findContact, whatsApp, makeCall, sendMessage
             contact_no, name = findContact(query)
             if(contact_no != 0):
